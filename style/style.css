@@ -1,0 +1,183 @@
+html,body{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #060C12;
+}
+
+.cards{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 125px;
+    margin-right: 100px;
+}
+
+.cards1{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 170px;
+    margin-top: -17px;
+}
+
+.cards2{
+    display: flex;
+    justify-content: space-around;
+}
+
+.slidercontainer{
+    width: 750px;
+    height: 450px;
+    background-color: #1c90ca;
+    display: flex;
+    margin-top: -90px;
+    margin-left: 287px;
+    opacity: 0.99;
+}
+
+.card1{
+    width: 300px;
+    height: 200px;
+    background-color: #1c90ca;
+    display: flex;
+    margin-top: 10px;
+    box-shadow: 4px 2px 10px 3px white;
+    border-radius: 15px 0px 0px 0px;
+    color: white;
+    font-family: cursive;
+    font-size: smaller;
+    opacity: 0.6;
+}
+
+.card2{
+    width: 300px;
+    height: 200px;
+    background-color: #1c90ca;
+    margin-top: 40px;
+    box-shadow: 4px 2px 10px 3px white;
+    border-radius: 15px 0px 0px 0px;
+    color: white;
+    font-family: cursive;
+    font-size: smaller;
+    opacity: 0.6;
+}
+
+.card2-photo{
+    width: 300px;
+    height: 140px;
+    border-radius: 15px 0px 0px 0px;
+}
+
+.card3{
+    width: 300px;
+    height: 200px;
+    background-color: #1c90ca;
+    box-shadow: 4px 2px 10px 3px white;
+    border-radius: 15px 0px 0px 0px;
+    color: white;
+    font-family: cursive;
+    font-size: smaller;
+    display: flex;
+    opacity: 0.7;
+}
+
+.card3-photo{
+    width: 120px;
+    height: 200px;
+    margin-left: 35px;
+}
+
+.card4{
+    width: 300px;
+    height: 200px;
+    background-color: #1c90ca;
+    box-shadow: 4px 2px 10px 3px white;
+    border-radius: 15px 0px 0px 0px;
+    color: white;
+    font-family: cursive;
+    font-size: smaller;
+    margin-top: 15px;
+    opacity: 0.6;
+}
+
+.card4-photo{
+    width: 300px;
+    height: 110px;
+    border-radius: 15px 0px 0px 0px;
+}
+
+.card5{
+    width: 300px;
+    height: 200px;
+    background-color: #1c90ca;
+    box-shadow: 4px 2px 10px 3px white;
+    border-radius: 15px 0px 0px 0px;
+    color: white;
+    font-family: cursive;
+    font-size: smaller;
+    margin-top: 35px;
+    opacity: 0.6;
+}
+
+.card6{
+    width: 300px;
+    height: 200px;
+    background-color: #1c90ca;
+    box-shadow: 4px 2px 10px 3px white;
+    border-radius: 15px 0px 0px 0px;
+    color: white;
+    font-family: cursive;
+    font-size: smaller;
+    margin-top: 55px;
+    display: flex;
+    opacity: 0.6;
+}
+
+.card6-photo{
+    width: 194px;
+    height: 200px;
+    border-radius: 15px 0px 0px 0px;
+}
+
+.slider img{
+    width: 657px;
+    height: 400px;
+    margin-top: 25px;
+    display: none;
+}
+
+.slider img:first-child{
+    display: block;
+}
+
+.prev{
+    background-color: #1c90ca;
+    border: none;
+    cursor: pointer;
+    transition: .35s linear;
+}
+
+.prev:hover{
+    background-color: #62bcea;
+}
+
+.prev i{
+    font-size: 34px;
+    color:  #000033;
+}
+
+.next{
+    background-color: #1c90ca;
+    border: none;
+    cursor: pointer;
+    transition: .35s linear;
+}
+
+.next:hover{
+    background-color: #62bcea;
+}
+
+.next i{
+    font-size: 34px;
+    color:  #000033;
+}
